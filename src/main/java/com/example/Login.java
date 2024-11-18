@@ -85,6 +85,7 @@ public class Login extends JFrame {
         addHoverEffect(signup);
 
         login.addActionListener(e -> {
+
 //
         });
 
@@ -95,7 +96,7 @@ public class Login extends JFrame {
 
         signup.addActionListener(e -> {
             setVisible(false);
-//            new Signup().setVisible(true);
+            new Registration().setVisible(true);
         });
 
         setSize(800, 480);
